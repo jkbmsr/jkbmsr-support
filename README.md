@@ -1,12 +1,29 @@
 # JKBMSR Support & Compatibility Community
 
 This repo is the community hub for [JKBMSR](https://jkbmsr.com) — the place to
-report and confirm whether a specific BMS model works with JKBMSR firmware,
-and to discuss anything else related to setup, wiring, or firmware behavior.
+report bugs, report and confirm whether a specific BMS model works with
+JKBMSR firmware, and discuss anything else related to setup, wiring, or
+firmware behavior.
 
-There's no code here. Everything happens in **[Discussions](../../discussions)**.
+There's no code here. Everything happens in **[Discussions](../../discussions)**
+and **[Issues](../../issues)**.
 
-## Structure
+## Reporting a bug
+
+Bugs across all three JKBMSR products are reported **here**, not in each
+product's own repo — [open a new issue](../../issues/new/choose) and pick the
+template for the affected product:
+
+- **Firmware** — the ESP32 gateway firmware
+- **Web app / dashboard** — jkbmsr.com and the authenticated dashboard
+- **Mobile app** — the Android/iOS app
+
+Each template applies the matching label (`firmware`, `web-app`, or
+`mobile-app`) automatically. If you're not sure whether your BMS model is
+supported at all, that's a compatibility question for Discussions below, not
+a bug report.
+
+## Compatibility discussions
 
 Discussions are organized into one category per supported BMS vendor:
 
@@ -23,16 +40,7 @@ Other owners with the same or a similar model can reply and confirm.
 
 ## How this feeds back into the site
 
-Reports confirmed here are what's behind the **Community Verified** labels on
-[jkbmsr.com/compatibility](https://jkbmsr.com/compatibility). A model showing
-up there as community-verified means real owners reported it working, not
-that JKBMSR's maintainer tested that exact unit.
-
-## Reporting a bug instead?
-
-If you've found an actual bug (not a "does this model work" question), please
-use the relevant repo's issue tracker instead:
-
-- Firmware: [jkbmsr-firmware/issues](https://github.com/jkbmsr/jkbmsr-firmware/issues)
-- Web app / dashboard: [jkbmsr-web/issues](https://github.com/jkbmsr/jkbmsr-web/issues)
-- Mobile app: [jkbmsr-mobile/issues](https://github.com/jkbmsr/jkbmsr-mobile/issues)
+Reports confirmed in Discussions are what's behind the **Community Verified**
+labels on [jkbmsr.com/compatibility](https://jkbmsr.com/compatibility). A
+model showing up there as community-verified means real owners reported it
+working, not that JKBMSR's maintainer tested that exact unit.
