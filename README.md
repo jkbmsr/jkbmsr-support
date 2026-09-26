@@ -10,9 +10,9 @@ and **[Issues](../../issues)**.
 
 ## Reporting a bug
 
-Bugs across all three JKBMSR products are reported **here**, not in each
+Bugs across the JKBMSR products are reported **here**, not in each
 product's own repo — [open a new issue](../../issues/new/choose) and pick the
-template for the affected product:
+template for the affected area:
 
 - **Firmware** — the ESP32 gateway firmware
 - **Web app / dashboard** — jkbmsr.com and the authenticated dashboard
@@ -25,15 +25,18 @@ a bug report.
 
 ## Compatibility discussions
 
-Discussions are organized into one category per supported BMS vendor:
+JKBMSR supports **JK-BMS only**. Other BMS vendors are not currently
+supported — check [jkbmsr.com/compatibility](https://jkbmsr.com/compatibility)
+for the current list before opening a discussion about another brand.
 
-- **JK-BMS**
-- **Daly**
-- **JBD (Jiabaida)**
-- **Seplos**
+Discussions are organized into one category per JK-BMS model family:
+
+- **JK-BMS — JK02 series (24S/32S)**
+- **JK-BMS — JK04 series and newer**
+- **JK-BMS — model not listed / identification help**
 
 If you've tried JKBMSR with a specific model, open a new discussion in that
-vendor's category with the exact model number in the title (e.g.
+category with the exact model number in the title (e.g.
 `JK-B2A24S — confirmed working over Bluetooth`) and describe what you tested
 (connection type, cell count, firmware version, what worked and what didn't).
 Other owners with the same or a similar model can reply and confirm.
